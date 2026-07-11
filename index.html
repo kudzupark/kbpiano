@@ -2,25 +2,102 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Piano Lessons</title>
+    <title>KB Piano Studio</title>
 
     <link rel="stylesheet" href="./styles.css" />
   </head>
 
   <body>
+    <header class="site-header">
+      <a href="#" class="logo">KB Piano Studio</a>
+
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#lessons">Lessons</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
     <main>
-      <p>Piano lesson website</p>
-      <h1>A new website is coming soon.</h1>
-      <p>
-        Personalized piano lessons for students of all ages and experience
-        levels.
-      </p>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">KB Piano Studio</p>
+          <h1>Bringing music to life.</h1>
+
+          <p>
+            Personalized piano lessons for students of all ages and experience
+            levels.
+          </p>
+
+          <a class="button" href="#contact">Schedule a free trial lesson</a>
+        </div>
+
+        <img
+          src="./images/kim-portrait.jpg"
+          alt="Kim Bracey, piano instructor"
+        />
+      </section>
+
+      <section id="about" class="about">
+        <p class="eyebrow">About</p>
+        <h2>Meet Kim</h2>
+
+        <p>
+          Add Kim's biography from the existing website here.
+        </p>
+      </section>
+
+      <section id="lessons" class="lessons">
+        <p class="eyebrow">Lessons</p>
+        <h2>Choose the lesson format that fits you.</h2>
+
+        <div class="lesson-grid">
+          <article class="lesson-card">
+            <h3>Group Lessons</h3>
+            <p>Add the current group lesson description here.</p>
+            <p>Add the group lesson price here.</p>
+          </article>
+
+          <article class="lesson-card">
+            <h3>Private Lessons</h3>
+            <p>Add the current private lesson description here.</p>
+            <p>Add the private lesson price here.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="student-story">
+        <img
+          src="./images/students-group.jpg"
+          alt="Piano students learning together"
+        />
+
+        <div>
+          <p class="eyebrow">Learning together</p>
+          <h2>Music grows through practice, confidence, and connection.</h2>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <p class="eyebrow">Contact</p>
+        <h2>Start with a free trial lesson.</h2>
+
+        <p>
+          Reach out to discuss lesson options, availability, and whether KB
+          Piano Studio is the right fit.
+        </p>
+
+        <a class="button" href="mailto:braceykim@gmail.com">
+          Email KB Piano Studio
+        </a>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <p>© 2026 KB Piano Studio</p>
+    </footer>
 
     <script src="./script.js"></script>
   </body>
