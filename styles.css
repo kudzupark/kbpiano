@@ -139,7 +139,7 @@ main,
   line-height: 1;
 }
 
-.about > p:last-child,
+.about > p,
 .contact > p {
   max-width: 46rem;
   line-height: 1.8;
