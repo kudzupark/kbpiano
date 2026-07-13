@@ -163,16 +163,6 @@ main,
   border-radius: 20px;
 }
 
-.lesson-card--group {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.lesson-card--group .pricing-block {
-  margin-top: auto;
-}
-
 .lesson-card h3 {
   margin-top: 0;
   font-size: 1.5rem;
@@ -185,6 +175,10 @@ main,
 
 .pricing-block {
   margin-top: 1.5rem;
+}
+
+.lesson-card--group .pricing-block {
+  margin-top: 3.2rem;
 }
 
 .pricing-title {
@@ -259,6 +253,10 @@ main,
   .student-story,
   .lesson-grid {
     grid-template-columns: 1fr;
+  }
+
+  .lesson-card--group .pricing-block {
+    margin-top: 1.5rem;
   }
 
   .hero {
