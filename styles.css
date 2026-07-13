@@ -63,7 +63,7 @@ main,
 }
 
 .logo img {
-  width: 72px;
+  width: 84px;
   height: auto;
 }
 
@@ -163,6 +163,16 @@ main,
   border-radius: 20px;
 }
 
+.lesson-card--group {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.lesson-card--group .pricing-block {
+  margin-top: auto;
+}
+
 .lesson-card h3 {
   margin-top: 0;
   font-size: 1.5rem;
@@ -170,6 +180,38 @@ main,
 
 .lesson-card p {
   line-height: 1.7;
+  color: var(--muted);
+}
+
+.pricing-block {
+  margin-top: 1.5rem;
+}
+
+.pricing-title {
+  margin: 0 0 0.75rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.pricing-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.pricing-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 8.5rem;
+}
+
+.pricing-label {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.pricing-value {
   color: var(--muted);
 }
 
